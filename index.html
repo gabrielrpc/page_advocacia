@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- shortcut --------------------------------------->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/balanca.png"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- icones --------------------------------------->
+    <script
+      src="https://kit.fontawesome.com/c8e4d183c2.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Mayara Ferreira - Advocacia</title>
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <div class="cabecalho-logo">
+        <!-- logo -->
+        <a href="#">
+          <img src="./assets/img/balanca.png" alt="balança" />
+          <h1>MAYARA FERREIRA</h1>
+          <h2>A D V O C A C I A</h2>
+        </a>
+      </div>
+
+      <!-- navegação -->
+      <nav class="menu" id="nav">
+        <button id="btn-mobile">
+          MENU
+          <span id="hamburger"> </span>
+        </button>
+        <ul id="menu-lista">
+          <li class="menu-itens"><a href="#">SERVIÇOS</a></li>
+          <li class="menu-itens"><a href="#">ATENDIMENTO</a></li>
+          <li class="menu-itens"><a href="#">CONTATO</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Seção principal -->
+      <section class="container-sobre">
+        <div class="container-sobre-texto">
+          <p>Sobre</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            mollitia animi eum dolor eligendi adipisci minima dolores, impedit
+            omnis commodi aliquid eaque quia excepturi iste alias assumenda
+            accusamus similique consectetur?
+          </p>
+          <button class="btn-contato">
+            <a href="#form">Entre em Contato</a>
+          </button>
+        </div>
+        <!-- imagem-justiça -->
+        <img src="./assets/img/justica-sem-fundo.png" alt="dama-justica" />
+      </section>
+
+      <!-- serviços ---------------------------------------------------->
+      <div class="container-servico">
+        <div class="servico-titulo">
+          <h2>SERVIÇOS</h2>
+        </div>
+
+        <div class="servicos">
+          <div class="servico-itens">
+            <p>Direito de Família</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga
+              quibusdam dolor minus illum quas fugiat, unde tempore velit
+              expedita ab.
+            </p>
+          </div>
+          <div class="servico-itens">
+            <p>Direito do Consumidor</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga
+              quibusdam dolor minus illum quas fugiat, unde tempore velit
+              expedita ab.
+            </p>
+          </div>
+          <div class="servico-itens">
+            <p>Direito do Trabalho</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga
+              quibusdam dolor minus illum quas fugiat, unde tempore velit
+              expedita ab.
+            </p>
+          </div>
+          <div class="servico-itens">
+            <p>Direito Público</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga
+              quibusdam dolor minus illum quas fugiat, unde tempore velit
+              expedita ab.
+            </p>
+          </div>
+          <div class="servico-itens">
+            <p>Direito Previdenciário</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga
+              quibusdam dolor minus illum quas fugiat, unde tempore velit
+              expedita ab.
+            </p>
+          </div>
+          <div class="servico-itens">
+            <p>Direito Civil</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga
+              quibusdam dolor minus illum quas fugiat, unde tempore velit
+              expedita ab.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- atendimento ---------------------------------------------------->
+      <div class="container-atendimento">
+        <div class="atendimento-titulo">
+          <h2>ATENDIMENTO</h2>
+        </div>
+
+        <div class="caixas-atendimento">
+          <div class="atendimento">
+            <p class="titulo">PRESENCIAL</p>
+            <p class="detalhes">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Lorem
+            </p>
+          </div>
+
+          <div class="atendimento">
+            <p class="titulo">DISTÂNCIA</p>
+            <p class="detalhes">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Lorem
+            </p>
+          </div>
+        </div>
+
+        <button class="btn-contato">
+          <a href="https://api.whatsapp.com/send?phone=5521983667303&text=sua%20mensagem"
+          target="_blank">Marque seu Atendimento</a>
+        </button>
+      </div>
+      <!-- formulario de contato --------------->
+      <div id="form" class="formulario-contato">
+        <h1>Formulário de Contato</h1>
+        <form
+          action="https://formsubmit.co/grpc15@outlook.com"
+          method="POST"
+          class="form"
+        >
+          <label for="name">Nome:</label>
+          <input type="text" name="name" id="name" required />
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" required />
+          <label for="message">Mensagem:</label>
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Em que posso ajudar ?"
+            required
+          ></textarea>
+          <input type="hidden" name="_captcha" value="false" />
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <p>Mayara Ferreira - Advocacia</p>
+      <p>
+        Avoluptate maxime. Voluptatibus offi cia ut ipsum porro in nemo cum eos
+        illum.
+      </p>
+      <!-- social ---------------------------------------------------->
+      <div class="social-icones">
+        <a
+          href="https://api.whatsapp.com/send?phone=5521983667303&text=sua%20mensagem"
+          target="_blank"
+          ><i class="fab fa-whatsapp"></i
+        ></a>
+        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+      </div>
+    </footer>
+
+    <div class="social-rolagem">
+      <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
